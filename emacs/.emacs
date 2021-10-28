@@ -67,4 +67,5 @@
 (setq org-default-notes-file (concat (file-name-as-directory org-home-dir) "plan/after-hours/after-hours-2021.org"))
 (setq org-capture-templates
       `(("t" "Work Todo" entry (file ,(concat (file-name-as-directory org-home-dir) "plan/work/work-2021.org")) "* TODO %?\n Create at %U\n %a")
+	("j" "Journal" entry (file+datetree ,(concat (file-name-as-directory org-home-dir) "journal/journal-2021.org")) "* %U - %^{heading}\n %?")
 	("h" "After hours Todo" entry (file ,(concat (file-name-as-directory org-home-dir) "plan/after-hours/after-hours-2021.org")) "* TODO %?\n Create at %U\n %a")))
