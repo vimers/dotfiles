@@ -52,4 +52,5 @@ alias vim='nvim'
 
 alias lg='lazygit'
 alias ra='ranger'
+alias e='emacs -nw'
 fpath+=${ZDOTDIR:-~}/.zsh_functions
