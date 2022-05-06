@@ -48,6 +48,9 @@ alias vim='nvim'
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# golang setting
+export GOROOT=$HOME/.local/go
+
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 alias lg='lazygit'
