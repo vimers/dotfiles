@@ -57,3 +57,6 @@ alias lg='lazygit'
 alias ra='ranger'
 alias e='emacs -nw'
 fpath+=${ZDOTDIR:-~}/.zsh_functions
+
+# solve wrong color when using vim in tmux
+export TERM=xterm-256color
