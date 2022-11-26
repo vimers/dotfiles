@@ -56,6 +56,7 @@ export GOROOT=$HOME/.local/go
 alias lg='lazygit'
 alias ra='ranger'
 alias e='emacs -nw'
+alias cty='/opt/ctg/CtyunClouddeskUniversal/CtyunClouddeskUniversal'
 fpath+=${ZDOTDIR:-~}/.zsh_functions
 
 # solve wrong color when using vim in tmux
